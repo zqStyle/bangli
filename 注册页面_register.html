@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>注册页面</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link type="text/css" href="css/ZC.css" rel="stylesheet">
+<link type="text/css" href="css/base.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/ZC.js"></script>
+</head>
+<body>
+<div class="w1200 margin_auto">
+    <div class="bl_logoDiv pt30 clearfix"><img src="images/logo1121.png" width="289" height="55"></a></div>
+    <div class="enrollBox mt10">
+    	<h3 class="enrollBox_h3 f16 font_fam ml5 clearfix"><span class="fl">注册新用户</span><a class="fr mr5 f12" href="#">注册帮助</a></h3>
+        <div class="enrollBox_con backgroundFFFFFF mt10 pt40">
+        	<div class="detailsCirc mt20 clearfix font_fam">
+            	<label class="detailsCirc_label fl f16 tr pr">邮箱/手机号码：</label>
+                <input id="email" class="detailsCirc_input fl pl5 mr5 zCemail" type="text" value="">
+                <p class="detailsCirc_p fl">邮箱/手机号码为用户名，并用于找回密码，接受订单通知等服务</p>
+                <span class="sorrectSpan fl ml15"></span>
+                <div id="layout" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">邮箱/手机号码格式不正确，请重新输入</p></div>
+                <div id="layoutFir" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">用户名不能为空，请重新输入</p></div>
+            </div>
+            <!-- detailsCirc end -->
+            <div class="detailsCirc mt20 clearfix font_fam" id="form1">
+            	<label class="detailsCirc_label fl f16 tr">登录密码：</label>
+                <input id="pass" class="detailsCirc_input fl pl5 mr5 input-style" type="password" value="" maxlength="20" name="pass">
+                <p class="detailsCirc_p fl">密码为6-20个字符，可有英文、数字及符号组成</p>
+				<div id="level" class="pw-strength">
+                    <div class="pw-bar"></div>
+                    <div class="pw-bar-on"></div>
+                    <div class="pw-txt">
+                        <span>弱</span>
+                        <span>中</span>
+                        <span>强</span>
+                    </div>
+                </div>
+                <div id="xiaoYubox" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码长度6-20个字符，请重新输入</p></div>
+                <div id="emptyDiv" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码不能为空，请重新输入</p></div>
+            </div>
+            <!-- detailsCirc end -->
+            <div class="detailsCirc mt20 clearfix font_fam">
+            	<label class="detailsCirc_label fl f16 tr">确认密码：</label>
+                <input id="passSon" class="detailsCirc_input fl pl5 mr5" type="password" value="" maxlength="20">
+                <p class="detailsCirc_p fl">请再次输入密码</p>
+                <span class="sorrectSpan fl ml15"></span>
+                <div id="Empty" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">确认密码不能为空，请重新输入</p></div>
+                <div id="Different" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">两次输入密码不一致，请重新输入</p></div>
+                <div id="verifylength" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码长度6-20个字符，请重新输入</p></div>
+            </div>
+            <!-- detailsCirc end -->
+            <div class="detailsCirc mt20 clearfix font_fam">
+            	<label class="detailsCirc_label fl f16 tr">图形验证码：</label>
+                <input id="yanzCode" class="detailsCirc_input fl pl5 mr5" type="text" value="">
+                <p class="detailsCirc_p fl">请输入图中的字符不区分大小写</p>
+                <div id="tifying" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">验证码不能为空，请重新输入</p></div>
+                <!--<div class="properDiv fl ml15 mt5 pl5 pr10" style="display:block;"><span class="fl"></span><p class="fl pl10">验证码错误，请重新输入</p></div>-->
+                <!--<span class="sorrectSpan fl ml15" style="display:block;"></span>-->
+            </div>
+            <!-- detailsCirc end -->
+            <div class="yangZhengson clearfix mt15">
+            	<div class="fl tc mr5"><img src="images/yangZhengson.jpg" width="128" height="28"></div>
+                <span class="fl">看不清？<a href="#">换张图</a></span>
+            </div>
+            <!-- yangZhengson end -->
+            <div class="onceZuche mt15">
+            	<input id="onceInp" class="bor_none f18 font_fam" type="submit" value="立&nbsp;即&nbsp;注&nbsp;册" onClick="subform()">
+            </div>
+            <!-- onceZuche end -->
+            <p class="clause_p mt10"><input class="agreeInp fl mr10 curaor_pointer" type="checkbox" value="">我已阅读并同意<a href="#">《邦礼网交易条款》</a>和<a href="#">《邦礼网社区条款》</a></p>
+        </div>
+        <!-- enrollBox_con end -->
+    </div>
+    <!-- enrollBox end -->
+</div>
+<!-- 邦礼w1200box end -->
+<div id="cc_blackBg" style="display:none;"></div>
+<!-- 验证身份弹出框 -->
+<div id="mailboxDiv" class="font_fam pr" style="display:none;">
+    <h3 class="wj_mmH3 clearfix pl10 pr10 f14">
+        <p class="fl f16 fb">验证身份</p>
+        <span id="wj_Close" class="fr curaor_pointer fb" title="关闭"></span>
+    </h3>
+    <p class="operators_p mt15 mr10 ml15 lineH180 fb">由于近期运营商调整了短信发送规则,可能造成信息发送延迟.如果您长时间未收到验证短信,请尝试重新发送。</p>
+    <div class="mt15">
+    	<div class="clearfix">
+        	<p class="mobile_p fl tr fb">手机号码：</p>
+        	<span class="mobile_span fl fb">13817687569</span>
+            <p class="verify_p fl fb ml30">验证码已发送到您的手机上</p>
+        </div>
+        <input class="mobile_inp curaor_pointer dis_biock mt15" id="btnSendCode" type="button" value="获取验证码" onclick="sendMessage()">
+    </div>
+	<div class="detailsCirc clearfix font_fam mt10">
+        <label class="detailsCirc_label fl fb tr mobilePhone_label">验证码：</label>
+        <input id="yzmInpyz" class="detailsCirc_input fl pl5 mr10 mobilePhone_input" type="text" value="">
+        <p id="sj_zhuCheyz" class="prompt_pSon fl">验证码为空</p>
+    </div>
+    <!-- detailsCirc end -->
+	<button class="yanZbutton dis_biock f14 colorfff bor_none curaor_pointer tc mt10 fb" onClick="Yzmform()">提&nbsp;交</button>
+</div>
+<!-- 验证身份弹出框 end -->
+</body>
+</html>

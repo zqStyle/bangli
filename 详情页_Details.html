@@ -1,0 +1,628 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>详情页</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link type="text/css" href="css/list.css" rel="stylesheet">
+<link type="text/css" href="css/hearFenli.css" rel="stylesheet">
+<link type="text/css" href="css/headerFooter.css" rel="stylesheet">
+<link type="text/css" href="css/base.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/xiangQing.js"></script>
+</head>
+<body>
+<div class="w1200 margin_auto">
+    <div class="header_top">
+        <!--登录之前-->
+        <div class="clearfix">
+        	<span class="fl color666 pl15">Hi, 请 <a class="colorF93D5C" href="#">登录</a>/<a class="colorF93D5C" href="#">注册</a></span>
+            <ul class="beforeLogin_ul fr pr5">             
+                <li class="beforeLogin_liW pr">
+                	<a href="#">我的邦礼账户&nbsp;<img class="zSimg" src="images/downJian.png" width="9" height="5"></a>
+                	<ul class="beforeLogin_liWul pa zin3 dis_none">
+                    	<li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">关注我们&nbsp;<img class="zSimg" src="images/xinLang.png" width="22" height="17"></a></li>
+            </ul>
+        </div>
+        <!--登录之前 end -->
+        <!--登录之后-->
+        <div class="clearfix" style="display:none">
+        	<span class="fl color666 pl15"><a class="colorF93D5C fb" href="#">Hi,xiangxain001</a>&nbsp;&nbsp;欢迎回到邦礼！</span>
+            <ul class="beforeLogin_ul fr pr5"> 
+            	<li><a class="fb color666" href="#"><img src="images/hGuan.png" width="27" height="15">&nbsp;邦礼积分21163.5</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li class="beforeLogin_liW pr">
+                	<a href="#">我的邦礼账户&nbsp;<img class="zSimg" src="images/downJian.png" width="9" height="5"></a>
+                	<ul class="beforeLogin_liWul pa zin3 dis_none">
+                    	<li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">关注我们&nbsp;<img class="zSimg" src="images/xinLang.png" width="22" height="17"></a></li>
+            </ul>
+        </div>
+        <!--登录之后 end -->
+    </div>
+    <!-- header_top end -->
+    <div class="bl_logoDiv mt20 clearfix">
+        <a class="fl" href="#"><img src="images/logo1121.png" width="289" height="55"></a>
+        <div class="bl_logoDiv_c fl pl50">
+            <form class="clearfix mt10">
+                <input class="bl_logoDiv_c_inp1 fl f14 pl40" type="text" value="邦礼网 全新改版,多种优惠!更多新玩法等着您!">
+                <input class="bl_logoDiv_c_inp2 fr curaor_pointer" type="submit" value="">
+            </form>
+            <dl class="clearfix ml5">
+                <dt class="fl mr5">热搜关键词：</dt>
+                <dd class="fl"><a href="#">家用电器</a><a href="#">数码通讯</a><a href="#">家具厨卫</a><a href="#">母婴玩具</a><a href="#">健康运动</a></dd>
+            </dl>
+        </div>
+        <img class="fr mt10 mr30" src="images/fuwu_sj.jpg" width="244" height="38">
+    </div>
+    <!-- bl_logoDiv end -->
+    <div class="topNav clearfix mt15">
+    	<div class="topNav_div fl pr">
+        	<a class="sYfenl fl f14 colorfff font_fam fb" href="#" title="所有商品分类">所有商品分类</a>
+            <ul class="ssificationUl pa dis_none">
+            	<li class="classify_li">
+                	<p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">数码通讯</a> 、<a href="#">手机</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">网络产品</a></dt>
+                            <dd><a href="#">3G上网</a><a href="#">网络存储</a><a href="#">交换机</a><a href="#">网卡</a><a href="#">路由器</a><a href="#">3G上网</a><a href="#">网络存储</a><a href="#">交换机</a><a href="#">网卡</a><a href="#">路由器</a><a href="#">3G上网</a><a href="#">网络存储</a><a href="#">交换机</a><a href="#">网卡</a><a href="#">路由器</a><a href="#">3G上网</a><a href="#">网络存储</a><a href="#">交换机</a><a href="#">网卡</a><a href="#">路由器</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><dt><a href="#">电脑配件</a></dt></dt>
+                            <dd>
+                                <a href="#">鼠标/键盘</a><a href="#">摄像头</a><a href="#">移动硬盘/优盘</a><a href="#">鼠标垫</a><a href="#">电脑清洁</a><a href="#">手写板</a><a href="#">线缆</a><a href="#">游戏设备</a><a href="#">其他配件</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">电脑整机</a></dt>
+                            <dd>
+                                <a href="#">上网本</a><a href="#">平板电脑</a><a href="#">笔记本</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">时尚影音</a></dt>
+                            <dd>
+                                <a href="#">游戏机</a><a href="#">电子词典</a><a href="#">数码相框</a><a href="#">录音笔</a><a href="#">电子书</a><a href="#">耳机/耳麦</a><a href="#">MID</a><a href="#">高清播放器</a><a href="#">音箱</a><a href="#">MP3/MP4配件</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">数码配件</a></dt>
+                            <dd>
+                                <a href="#">其他配件</a><a href="#">三脚架/云台</a><a href="#">相机包</a><a href="#">相机贴膜</a><a href="#">滤镜</a><a href="#">电池/充电器</a><a href="#">存储卡/读卡器</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">摄影摄像</a></dt>
+                            <dd>
+                                <a href="#">摄像机</a><a href="#">微单相机</a><a href="#">单反相机</a><a href="#">数码相机</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">手机配件</a></dt>
+                            <dd>
+                                <a href="#">其他配件</a><a href="#">车载配件</a><a href="#">保护套</a><a href="#">存储卡</a><a href="#">贴膜</a><a href="#">数据线</a><a href="#">移动电源</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">通讯终端</a></dt>
+                            <dd>
+                                <a href="#">座机</a><a href="#">手机</a>
+                            </dd>
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                        	<dt><a href="#">电脑软件</a></dt>
+                            <dd>
+                                <a href="#">软件</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">家用电器</a> 、<a href="#">个人健康</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">厨卫用具</a></dt>
+                            <dd><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">床上用品</a></dt>
+                            <dd><a href="#">头枕/颈枕/抱枕/腰靠</a><a href="#">家居服/家居鞋</a><a href="#">床垫/床褥</a><a href="#">枕芯/被芯</a><a href="#">床上套件</a><a href="#">毛巾/毯/靠枕</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">生活用品</a></dt>
+                            <dd><a href="#">雨伞雨具</a><a href="#">口罩</a><a href="#">台灯</a><a href="#">创意礼品</a><a href="#">清洁/净化</a><a href="#">收纳</a><a href="#">洗晒</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">厨卫用具</a></dt>
+                            <dd><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">床上用品</a></dt>
+                            <dd><a href="#">头枕/颈枕/抱枕/腰靠</a><a href="#">家居服/家居鞋</a><a href="#">床垫/床褥</a><a href="#">枕芯/被芯</a><a href="#">床上套件</a><a href="#">毛巾/毯/靠枕</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">生活用品</a></dt>
+                            <dd><a href="#">雨伞雨具</a><a href="#">口罩</a><a href="#">台灯</a><a href="#">创意礼品</a><a href="#">清洁/净化</a><a href="#">收纳</a><a href="#">洗晒</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">汽车用品</a> 、<a href="#">汽修工具</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">个人健康</a></dt>
+                            <dd><a href="#">其他健康电器</a><a href="#">按摩器/按摩椅</a><a href="#">美容/美发器</a><a href="#">剃/脱毛器</a><a href="#">电吹风</a><a href="#">剃须刀</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">生活电器</a></dt>
+                            <dd><a href="#">其他生活电器</a><a href="#">饮水机</a><a href="#">除湿/干衣机</a><a href="#">空气净化器</a><a href="#">挂烫机/电熨斗</a><a href="#">吸尘器</a><a href="#">电风扇</a><a href="#">加湿器</a><a href="#">取暖器</a><a href="#">空调扇</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">大家电</a></dt>
+                            <dd><a href="#">家电配件</a><a href="#">消毒柜/冷柜</a><a href="#">热水器</a><a href="#">家庭影院</a><a href="#">电视</a><a href="#">洗衣机</a><a href="#">空调</a><a href="#">冰箱</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">厨房电器</a></dt>
+                            <dd><a href="#">其他厨房电器</a><a href="#">豆芽机</a><a href="#">果蔬净化机</a><a href="#">爆米花机</a><a href="#">料理机</a><a href="#">电子饭盒</a><a href="#">电火锅</a><a href="#">电煎锅</a><a href="#">电饼档</a><a href="#">电蒸笼</a><a href="#">煎烤炉</a><a href="#">电水壶</a><a href="#">电炖锅/电炖盅</a><a href="#">煮蛋器</a><a href="#">电烤箱</a><a href="#">微波炉</a><a href="#">电饭煲</a><a href="#">多士炉</a><a href="#">电磁炉</a><a href="#">咖啡机</a><a href="#">冰激凌机</a><a href="#">面包机</a><a href="#">酸奶机</a><a href="#">豆浆机</a><a href="#">榨汁机</a><a href="#">榨油机</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">母婴玩具</a> 、<a href="#">儿童</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation navFive">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">母婴玩具</a></dt>
+                            <dd><a href="#">喂食器</a><a href="#">拼插/积木</a><a href="#">婴儿床</a><a href="#">早教玩具</a><a href="#">纽曼早教</a><a href="#">婴儿玩具</a><a href="#">婴儿枕</a><a href="#">儿童理发器</a><a href="#">儿童书包</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">美容护理</a> 、<a href="#">香水</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation"> 
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">彩妆</a></dt>
+                            <dd><a href="#">面部彩妆</a><a href="#">眼部彩妆</a><a href="#">唇部彩妆</a><a href="#">美容工具</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">香水SAP</a></dt>
+                            <dd><a href="#">女士香水</a><a href="#">男士香水</a><a href="#">香体走珠</a><a href="#">组合套装</a><a href="#">迷你香水</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">男性专区</a></dt>
+                            <dd><a href="#">面部护理</a><a href="#">眼部护理</a><a href="#">身体护理</a><a href="#">剃须</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">彩妆</a></dt>
+                            <dd><a href="#">面部彩妆</a><a href="#">眼部彩妆</a><a href="#">唇部彩妆</a><a href="#">美容工具</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">香水SAP</a></dt>
+                            <dd><a href="#">女士香水</a><a href="#">男士香水</a><a href="#">香体走珠</a><a href="#">组合套装</a><a href="#">迷你香水</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">男性专区</a></dt>
+                            <dd><a href="#">面部护理</a><a href="#">眼部护理</a><a href="#">身体护理</a><a href="#">剃须</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">家居厨卫</a> 、<a href="#">生活</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">厨卫用具</a></dt>
+                            <dd><a href="#">厨卫工具</a><a href="#">收纳保鲜</a><a href="#">水具/酒具</a><a href="#">锅具/壶具</a><a href="#">餐具</a><a href="#">刀具</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">床上用品</a></dt>
+                            <dd><a href="#">头枕/颈枕/抱枕/腰靠</a><a href="#">家居服/家居鞋</a><a href="#">床垫/床褥</a><a href="#">枕芯/被芯</a><a href="#">床上套件</a><a href="#">毛巾/毯/靠枕</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">生活用品</a></dt>
+                            <dd><a href="#">雨伞雨具</a><a href="#">口罩</a><a href="#">台灯</a><a href="#">创意礼品</a><a href="#">清洁/净化</a><a href="#">收纳</a><a href="#">洗晒</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">奢侈品</a> 、<a href="#">男女背包</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">男士专区</a></dt>
+                            <dd><a href="#">男包</a><a href="#">腰带</a><a href="#">眼镜</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">女性专区</a></dt>
+                            <dd><a href="#">女包</a><a href="#">腰带</a><a href="#">眼镜</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">配饰</a></dt>
+                            <dd><a href="#">皮具礼盒</a><a href="#">票夹</a><a href="#">钱包</a><a href="#">钥匙扣</a><a href="#">名片夹</a><a href="#">其他</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+                <li class="classify_li">
+                    <p class="yiJfication clearfix" href="#">
+                        <span class="fl ml10">
+                        <a href="#">时尚配饰</a> 、<a href="#">项链</a>
+                        </span>
+                        <span class="fr mr10">&gt;</span>
+                    </p>
+                    <span class="maskSpan"></span>
+                    <div class="two_Navigation">
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">饰品配饰</a></dt>
+                            <dd><a href="#">珠宝配件</a><a href="#">饰品配件</a><a href="#">胸针</a><a href="#">头饰</a><a href="#">耳饰</a><a href="#">戒指</a><a href="#">手链/脚链</a><a href="#">项链</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">眼镜</a></dt>
+                            <dd><a href="#">电脑防护</a><a href="#">太阳镜</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">经典礼品</a></dt>
+                            <dd><a href="#">创意礼品</a><a href="#">瑞士军刀</a><a href="#">工艺藏品</a><a href="#">火机</a><a href="#">礼品文具</a><a href="#">鲜花速递</a></dd>          
+                        </dl>
+     					<dl class="two_Navdlcon fl">
+                            <dt><a href="#">手表钟表</a></dt>
+                            <dd><a href="#">手表</a><a href="#">钟表</a></dd>          
+                        </dl>
+                        <dl class="two_Navdlcon fl">
+                            <dt><a href="#">箱包</a></dt>
+                            <dd><a href="#">时尚男女包</a><a href="#">休闲男包</a><a href="#">旅行箱包</a><a href="#">背包/钱包</a><a href="#">腰带/皮带/腰包</a><a href="#">皮具礼盒</a><a href="#">公文包/电脑包</a><a href="#">化妆包</a></dd>          
+                        </dl>
+                	</div>
+                </li>
+            </ul>
+        </div>
+        <!-- topNav_div end -->
+        <ul class="topNav_ul fl">
+        	<li><a class="first_a" href="#">首&nbsp;&nbsp;&nbsp;页</a></li>
+            <li><a href="#">品牌专区</a></li>
+            <li><a href="#">商城专区</a></li>
+            <li><a href="#">新品热销</a></li>
+            <li><a href="#">邦礼积分卡</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">积分增值服务</a></li>
+            <li><a href="#">企业定制</a></li>
+        </ul>
+        <a class="bLgouwuche dis_biock fr" href="#" title="我的购物车"><span class="f14 font_fam fb colorfff" href="#">9</span></a>
+    </div>
+    <!-- topNav end -->
+    
+    
+    <div class="clearfix mt15">
+        <h2 class="fl f16 font_fam fb pl10"><a class="color666" href="#">家居厨卫</a></h2>
+        <div class="cplist_Div fl ml15">&gt;<a href="#">厨卫用具</a>&gt;<a class="" href="#">锅具壶具</a></div>
+    </div>
+	<div class="fenliList_box mt15 clearfix"> 
+    	<div class="fenliList_boxLet fl">
+			<div class="fenliListbot pb20">
+            	<h4 class="fenliListbot_h4 f14 font_fam fb colorfff tc">看过本产品的人还买过</h4>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/lby_cpimg2.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">45.00</span> 积分  <span class="color999 text_li_th">￥79.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">德铂锅具弗伦斯堡DEP-179德铂锅具弗伦斯堡德铂锅具弗伦斯堡</p>
+                    </dd>
+                </dl>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img1.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">4588.00</span> 积分  <span class="color999 text_li_th">￥7889.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">奔腾电动剃须刀PS3188奔腾电动剃须刀PS3188</p>
+                    </dd>
+                </dl>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img4.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">45.00</span> 积分  <span class="color999 text_li_th">￥79.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">ELLE新款NEW LOGO</p>
+                    </dd>
+                </dl>
+            </div>
+            <!-- fenliListbot end --> 
+            <div class="fenliListbot mt20 pb20">
+            	<h4 class="fenliListbot_h4 f14 font_fam fb colorfff tc">同类最热销</h4>
+                <dl class="similarMr_dl clearfix mt15 pb5 pr">
+                	<dt class="fl"><a href="#"><img src="images/reMai_img4.jpg" width="72" height="72"></a></dt>
+                    <dd class="fr">
+                    	<p class="font_fam"><span class="colorF93D5C">1118.00</span> 积分  <span class="color999 text_li_th">￥1348.00</span></p>
+                        <p class="similarMr_dlPbot font_fam ovhidden">WMF浅炖锅12.06.01.3320WMF浅炖锅12.06.01.3320</p>
+                    </dd>
+                    <dd class="dlPbot_munr pa colorBF1F39 tc f14 font_fam">1</dd>
+                </dl>
+                <dl class="similarMr_dl clearfix mt15 pb5 pr">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img1.jpg" width="72" height="72"></a></dt>
+                    <dd class="fr">
+                    	<p class="font_fam"><span class="colorF93D5C">95.00</span> 积分  <span class="color999 text_li_th">￥199.00</span></p>
+                        <p class="similarMr_dlPbot font_fam ovhidden">怡万家IWAKI耐热玻璃蓝调</p>
+                    </dd>
+                    <dd class="dlPbot_munr pa colorBF1F39 tc f14 font_fam">2</dd>
+                </dl>
+                <dl class="similarMr_dl clearfix mt15 pb5 pr">
+                	<dt class="fl"><a href="#"><img src="images/lby_cpimg3.jpg" width="72" height="72"></a></dt>
+                    <dd class="fr">
+                    	<p class="font_fam"><span class="colorF93D5C">325.00</span> 积分  <span class="color999 text_li_th">￥588.00</span></p>
+                        <p class="similarMr_dlPbot font_fam ovhidden">怡万家IWAKI耐热玻璃蓝调</p>
+                    </dd>
+                    <dd class="dlPbot_munr pa colorBF1F39 tc f14 font_fam">3</dd>
+                </dl>
+                <dl class="similarMr_dl clearfix mt15 pb5 pr">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img3.jpg" width="72" height="72"></a></dt>
+                    <dd class="fr">
+                    	<p class="font_fam"><span class="colorF93D5C">138.00</span> 积分  <span class="color999 text_li_th">￥289.00</span></p>
+                        <p class="similarMr_dlPbot font_fam ovhidden">怡万家IWAKI耐热玻璃蓝调</p>
+                    </dd>
+                    <dd class="dlPbot_munr pa colorBF1F39 tc f14 font_fam">4</dd>
+                </dl>
+                <dl class="similarMr_dl clearfix mt15 pb5 pr">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img2.jpg" width="72" height="72"></a></dt>
+                    <dd class="fr">
+                    	<p class="font_fam"><span class="colorF93D5C">508.00</span> 积分  <span class="color999 text_li_th">￥1280.00</span></p>
+                        <p class="similarMr_dlPbot font_fam ovhidden">怡万家IWAKI耐热玻璃蓝调</p>
+                    </dd>
+                    <dd class="dlPbot_munr pa colorBF1F39 tc f14 font_fam">5</dd>
+                </dl>
+			</div>            
+            <!-- fenliListbot end --> 
+            <div class="fenliListbot mt20 pb20">
+            	<h4 class="fenliListbot_h4 f14 font_fam fb colorfff tc">热卖产品</h4>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img1.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">45.00</span> 积分  <span class="color999 text_li_th">￥79.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">德铂锅具弗伦斯堡DEP-179德铂锅具弗伦斯堡德铂锅具弗伦斯堡</p>
+                    </dd>
+                </dl>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img2.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">4588.00</span> 积分  <span class="color999 text_li_th">￥7889.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">奔腾电动剃须刀PS3188奔腾电动剃须刀PS3188</p>
+                    </dd>
+                </dl>
+                <dl class="reMai_dl clearfix mt15 pb10">
+                	<dt class="fl"><a href="#"><img src="images/tuiJian_img3.jpg" width="165" height="165"></a></dt>
+                    <dd class="mt5 fl">
+                    	<p class="f14 font_fam"><span class="colorF93D5C">45.00</span> 积分  <span class="color999 text_li_th">￥79.00</span></p>
+                        <p class="rmMbot_p f14 font_fam txh">ELLE新款NEW LOGO</p>
+                    </dd>
+                </dl>
+            </div>
+            <!-- fenliListbot end -->                
+        </div>
+        <!-- fenliList_boxLet end -->
+        
+        <div class="fenliList_boxRit fr">
+            <div class="chooseDetails clearfix">
+            	<div class="chooseDetails_L fl">
+                	<div id="preview" class="spec-preview fr"> 
+                        <span class="jqzoom"><img jqimg="images/s1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></span> 
+                    </div>
+                    <div class="spec-scroll clear">
+                        <div class="items">
+                            <ul class="clearfix ml30">
+                            <li><img bimg="images/s1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
+                            <li><img bimg="images/s2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
+                            <li><img bimg="images/s3.jpg" src="images/s3.jpg" onmousemove="preview(this);"></li>
+                            <li><img bimg="images/s4.jpg" src="images/s4.jpg" onmousemove="preview(this);"></li>
+                            <li><img bimg="images/s5.jpg" src="images/s5.jpg" onmousemove="preview(this);"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- chooseDetails_L end -->
+                <div class="chooseDetails_R fr">
+                	<p class="xq_cpMingc f20 font_fam fb txh">Apple iPhone 6 Plus (A1524) 16GB 金色 移动联通电信4G手机Apple iPhone 6 Plus (A1524) 16GB 金色 移动联通电信4G手机Apple iPhone 6 Plus (A1524) 16GB 金色 移动联通电信4G手机</p>
+                    <p class="cpMiaos_p f16 font_fam lineH180 fb mt5 colorF93D5C">选择下方“北京移动购机赠费”推荐188元套餐，不换号码，额外得1800元话费，分24个月返还，尖叫吧，机会难得，欲购从速！选择下方“北京移动购机赠费”推荐188元套餐，不换号码，额外得1800元话费，分24个月返还，尖叫吧，机会难得，欲购从速！选择下方“北京移动购机赠费”推荐188元套餐，不换号码，额外得1800元话费，分24个月返还，尖叫吧，机会难得，欲购从速！选择下方“北京移动购机赠费”推荐188元套餐，不换号码，额外得1800元话费，分24个月返还，尖叫吧，机会难得，欲购从速！</p>
+                    <!--<p class="f14 font_fam color999 mt5">邦礼积分价<span class="f30 fb colorF93D5C pl10">4999.00</span></p>-->
+                    <p class="priceJ font_fam mt10 tc">促销价:<span>5288.00积分</span></p>
+                    <p class="f14 font_fam color999 mt10">市场积分价<span class="text_li_th pl10">6288.00</span></p>
+                    <dl class="criticismDl clearfix mt25 f16 font_fam color666">
+                        <dt class="fl mt5 f18">选择类型：</dt>
+                        <dd class="fl ml10">
+                            <ul id="tb-thumbA" class="tb-thumb clearfix">
+                                <li id="xzXg1" onClick="speciColour(1)">
+                                    <span>移动移动移动</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                                <li id="xzXg2" onClick="speciColour(2)">
+                                    <span>电信</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                                <li id="xzXg3" onClick="speciColour(3)">
+                                    <span>联通</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="criticismDl clearfix mt15 f16 font_fam color666">
+                        <dt class="fl mt5 f18">属&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性：</dt>
+                        <dd class="fl ml10">
+                            <ul id="tb-thumbB" class="tb-thumb clearfix">
+                                <li id="xzXg4" onClick="speciColour(4)">
+                                    <span>金色</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                                <li id="xzXg5" onClick="speciColour(5)">
+                                    <span>灰色</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                                <li id="xzXg6" onClick="speciColour(6)">
+                                    <span>银色</span>
+                                    <b class="tb-selected-b"></b>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="criticismDl clearfix mt15">
+                    	<dt class="fl f18 font_fam color666 mt5">数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量：</dt>
+                        <dd class="fl ml10">
+                        	<form class="cartNumber fl">
+                                <input class="inpNumber bor_none fl fb" type="button" id="but_decr1" value="-" onClick="return boutton(1,1);">
+                                <input title="1" class="cc_digital font_fam f16 tc bor_none fl" type="text" value="1" id="digital1" maxlength="3" onBlur="xiaoJiFen(1)" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+                                <input class="inpNumber bor_none fr fb" type="button" id="but_incr1" value="+" onClick="return boutton(0,1);">
+                            </form>
+                            <span class="cartNumber_span fl f18 font_fam ml20 color666">库存18520件</span>
+                        </dd>
+                    </dl>
+                    <!-- 是否选中提示文字 -->
+                    <div class="prompt_Div mt15">
+                        <p class="prompt_Div_p1">请选择：“类型”</p>
+                        <p class="prompt_Div_p2">请选择：“属性”</p>
+                    </div>
+                    <!-- 是否选中提示文字 end-->
+                    
+                    <div class="collectionDiv clearfix mt20">
+                        <a class="buyingOne thD mr35 fl" href="#">加入购物车</a>
+                        <a class="hoppingCart thD fl" href="#">一键购买</a>
+                    </div>
+                </div>
+                <!-- chooseDetails_R end -->
+            </div>
+            <!-- chooseDetails end -->
+            	 
+            <div class="mt25">
+            	<ul class="goodsThe clearfix f14 font_fam fb">
+                	<li name="name1">商品介绍</li>
+                    <li name="name2">如何购买</li>
+                    <li name="name3">售后服务</li>
+                </ul>
+                <div class="xxListData name1 xxListData1">
+                	<img src="images/cpXXimg1.jpg">
+                </div>
+                <!-- 产品介绍 end -->
+                <div class="xxListData name2">
+                	<p class="f14 lineH180 mt30 color666">邦礼网购物为大宗商品团购模式</p>
+                    <p class="f14 lineH180 mt30 color666">团购方式<br>第一步 进入邦礼团购网查找自己喜欢的商品<br>第二步 在您喜欢的商品页面中选择商品型号、尺寸以及填写购买数量，然后点击“购买”按钮。<br>第三步 提交订单 </p>
+                    <p class="f14 lineH180 mt30 color666">注意：详细购买步骤请查看 网站帮助</p>
+                </div>
+                <!-- 如何购买 end -->
+                <div class="xxListData name3">
+                    <h5 class="f14 lineH180 mt15 color666">一、服务承诺</h5>
+                    <p class="f14 lineH180 color666 pl30">1、邦礼商城的商品均为正品。为保障您的权益，请会员付款后即与配送人员当面核对商品的种类、数量、规格、赠品、金额等是否与订单一致，确认无误后再进行签收。您对商品进行签收后，将不再接受以上问题的投诉。谢谢配合！<br>2、邦礼商城严格遵循国家“三包”法规，如符合以下条件，自顾客收到商品起7日内可退货，8日至15日内可换货： <br> A、商品出现国家“三包”法规中所规定的非人为质量问题；<br> B、在7日内（退货）或15日内（换货）至生产厂商的售后服务中心开具证明商品有质量问题的检测报告（如售后服务中心无法提供检测报告，则需提供商品检测或故障单）；<br>C、商品外包装完整未损坏，商品及其标配配件、赠品（如购买时有赠品）、说明书、保修凭证和其他票据均齐全（如申请退换货的商品为成套商品中的一个商品如礼盒、礼包，则需退回此整套商品）； </p>
+                    <h5 class="f14 lineH180 mt20 color666">二、退换货说明</h5>
+                    <p class="f14 lineH180 color666 pl30">1、退换货时效定义：<br>退换货指商品出现“三包”规定的质量问题;物流损坏;收到商品与所订商品数量、尺寸、规格、型号不一致；<br>退货时效：自会员收到商品起7日内开具证明商品有质量问题的检测报告； <br>换货时效：自会员收到商品起15日内开具证明商品有质量问题的检测报告；<br>2、运费说明：<br>自顾客收到商品起7日内因质量问题退货，如通过快递寄回商品而产生的运费由厂家承担（不承担保价费用）；因无质量问题换货而产生的所有运费由会员自行承担。<br> 3、以下情况邦礼商城恕不提供退换货服务：<br>A、任何非由邦礼商城出售的商品（订单号不符合）；<br>B、超过国家“三包”法规中规定的退换货的有效期；<br>C、商品已使用（有质量问题除外）或为正常使用磨损；<br>D、商品外包装不完整或损坏，标配配件、赠品（如购买时有赠品）或说明书不完整，保修凭证和其他票据任一缺失或涂改，保修凭证上的的商品型号或序列号与商品实物不符；<br>E、擅自撕毁或涂改商品标贴、序列号、防伪标记；<br>F、未经授权的疏忽、误用、滥用、拆装、碰撞、进液、事故、改动、不正确的安装或保管而导致的商品质量问题；<br>G、由非生产厂商指定或授权维修点进行拆装或维修而导致的商品质量问题；<br>4、售后部门在收到顾客寄回的商品起15个工作日之内完成退换货申请的处理。<br>5、自顾客收到商品起15日以上如商品出现质量问题，为了不耽误顾客使用，缩短故障商品的维修时间，我们建议您直接联系生产厂商在当地的售后服务网点进行处理。您可以通过在商品的保修卡中查找、拨打厂商顾客服务热线咨询或访问厂商官方网站等方式以获得售后服务网点信息。<br>6、在不违反国家“三包”法规的前提下，邦礼商城对商品退换原则保留最终解释权。</p>
+                    <h5 class="f14 lineH180 mt20 color666">三、特殊商品保修条款</h5>
+                    <p class="f14 lineH180 color666 pl30">1、 手机、数码相机、数码摄像机、台式机电脑、笔记本电脑、家用电器、显示器、打印机、扫描仪、一体机、GPS导航仪类商品<br>A、 如需邦礼商城代为送至厂商售后服务中心检测，请顾客将整套商品（包括所有标配配件）、保修凭证和购买发票复印件【Motorola摩托罗拉手机、Sony Ericsson索尼爱立信手机、Sharp夏普手机、LG手机、Canon佳能相机、Nikon尼康相机需要寄回发
+    票原件；Nokia诺基亚手机在收到货15日内如需检测，需附上购买者本人身份证正反面复印件（超过15日的维修则不需要），否则厂商售后服务中心不予受理】寄至邦礼商城。<br>B、 台式机电脑、家用电器、显示器、打印机、扫描仪、一体机，GPS导航仪等商品,如厂商的保修条款中提供上门售后服务，可直接致电厂商800顾客服务热线，厂商售后服务中心可以免费上门进行检测和维修。<br>2、 化妆品、洗化用品、护肤品、个人护理用品类商品 <br>A、购买化妆品、洗化用品、护肤品、明，并立即与邦礼商城客服联系。<br>B、 化妆品、洗化用品、护肤用品及个人护理用品，如无质量问题，不可退换。<br> C、 因商品保质期即将到期等原因而进行促销清仓的商品,不予退换,邦礼商城将在商品页面标明商品情况,此类商品建议顾客谨慎购买。<br>D、 因个人喜好（如外观、色泽、气味等）或不适合个人发质、肤质等理由要求退换货的，不予处理。<br>E、 顾客对商品质量表示置疑，要求退换货的，请提供当地质检部门出具的书面鉴定。若商品确实存在质量问题,邦礼商城将提供退换货服务。<br>3、食品类商品<br>A、为保证食品安全，请顾客在签收此类商品时仔细查验，当场验收。若商品存在外包装破损、缺少、变质等问题，应在快递单据上注明，并立即与邦礼商城客服联系。<br>B、食品类商品，如无质量问题，不可退换。<br>C、经合法食品检验机构检验，确属于不符合食品安全标准的食品，予以退换货。<br>D、对国家质量监督检验检疫总局公告的存在质量问题的食品，予以退货。</p>
+                    <h5 class="f14 lineH180 mt20 color666">四、退换货流程</h5>
+                    <p class="f14 lineH180 color666 pl30">1、如果您需要办理退换货，可通过以下方式进行办理：<br>2、网站自助服务：可以更换商品的颜色或尺码，如需办理，可登录“邦礼网-我的订单”直接办理。<br>3、客服电话：400-639-6566<br>详细流程请查看 退换货申请</p>
+                    <h5 class="f14 lineH180 mt20 color666">五、客户服务</h5>
+                    <p class="f14 lineH180 color666 pl30">24小时客服在线（工作时间人工客服，非工作时间电子客服值班），对会员所兑换的各种商品按相关规定承诺退换货保障，对会员投
+    诉、建议，客户中心将在三个工作日内处理。<br>客服热线：400-166-8282</p>
+                </div>
+                <!-- 售后服务 end -->
+            </div>
+            <!-- 介绍、购买服务 end -->  
+        </div>
+        <!-- fenliList_boxRit end -->
+    </div>
+    <!-- fenliList_box end -->
+    <div class="mt50"><img src="images/foot_server.jpg"></div>
+</div>
+<!-- 邦礼w1200box end -->
+
+<div class="footer mt20">
+    <div class="footer_divT">
+    	<ul class="footer_ult clearfix w1200 margin_auto">
+            <li class="f14 colorfff font_fam footer_ultFirst"><img class="mr10" src="images/bottom_ico1.jpg">新手上路</li>
+            <li class="f14 colorfff font_fam"><img class="mr10" src="images/bottom_ico2.jpg">支付帮助</li>
+            <li class="f14 colorfff font_fam "><img class="mr10" src="images/bottom_ico3.jpg">配送说明</li>
+            <li class="f14 colorfff font_fam"><img class="mr10" src="images/bottom_ico4.jpg">订单帮助</li>
+            <li class="f14 colorfff font_fam"><img class="mr10" src="images/bottom_ico5.jpg">售后服务</li>
+        </ul>
+    </div>	
+    <!-- end -->
+
+    <div class="w1200 margin_auto">
+        <ul class="footer_ulb clearfix">
+            <li class="font_fam">
+                <a href="#">兑换流程</a>
+                <a href="#">常见问题</a>
+                <a href="#">VIP会员</a>
+                <a href="#">推荐注册分成</a>
+            </li>
+            <li class="font_fam">
+                <a href="#">支付方式</a>
+                <a href="#">如何退款</a>
+                <a href="#">红包说明</a>
+                <a href="#">发票服务</a>
+            </li>
+            <li class="font_fam">
+                <a href="#">国内配送范围</a>
+                <a href="#">国际收费标准</a>
+                <a href="#">配送收费标准</a>
+            </li>
+            <li class="font_fam">
+                <a href="#">如何查询订单</a>
+                <a href="#">如何取消订单</a>
+                <a href="#">如何修改订单</a>
+            </li>
+            <li class="font_fam">
+                <a href="#">商品售后</a>
+                <a href="#">退换货政策</a>
+                <a href="#">投诉说明</a>
+            </li>
+        </ul>
+        <div class="footer_divb mt20 clearfix tc color888 font_fam">
+            <a href="#">关于我们</a><span>|</span><a href="#">联系客服</a>|<a href="#">交易条款</a>|<a href="#">隐私声明</a>|<a href="#">免责条款</a>|<a href="#">友情链接</a>|<a href="#">顺丰快递查询</a>
+        </div>
+        <p class="tc font_fam color888 mt10 pb10">邦礼网2012-2022上海邦礼网络信息科技有限公司 版权所有 沪ICP备12038387号 <a href="#"><img src="images/baidu_bg.jpg" width="20" height="20"></a></p>
+    </div>
+</div>
+<!-- footer end -->
+</body>
+</html>

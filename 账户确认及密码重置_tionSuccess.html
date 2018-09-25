@@ -1,0 +1,122 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>账户确认及密码重置</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link type="text/css" href="css/ZC.css" rel="stylesheet">
+<link type="text/css" href="css/headerFooter.css" rel="stylesheet">
+<link type="text/css" href="css/base.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/wjPass.js"></script>
+</head>
+<body>
+<div class="w1200 margin_auto">
+    <div class="header_top">
+        <!--登录之前-->
+        <div class="clearfix">
+        	<span class="fl color666 pl15">Hi, 请 <a class="colorF93D5C" href="#">登录</a>/<a class="colorF93D5C" href="#">注册</a></span>
+            <ul class="beforeLogin_ul fr pr5">             
+                <li class="beforeLogin_liW pr">
+                	<a href="#">我的邦礼账户&nbsp;<img class="zSimg" src="images/downJian.png" width="9" height="5"></a>
+                	<ul class="beforeLogin_liWul pa zin1 dis_none" style="z-index:9">
+                    	<li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">关注我们&nbsp;<img class="zSimg" src="images/xinLang.png" width="22" height="17"></a></li>
+            </ul>
+        </div>
+        <!--登录之前 end -->
+        <!--登录之后-->
+        <div class="clearfix" style="display:none">
+        	<span class="fl color666 pl15"><a class="colorF93D5C fb" href="#">Hi,xiangxain001</a>&nbsp;&nbsp;欢迎回到邦礼！</span>
+            <ul class="beforeLogin_ul fr pr5"> 
+            	<li><a class="fb color666" href="#"><img src="images/hGuan.png" width="27" height="15">&nbsp;邦礼积分21163.5</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">我的收藏</a></li>            
+                <li class="beforeLogin_liW pr zin3">
+                	<a href="#">我的邦礼账户&nbsp;<img class="zSimg" src="images/downJian.png" width="9" height="5"></a>
+                	<ul class="beforeLogin_liWul pa zin3 dis_none" style="z-index:9">
+                    	<li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                        <li><a href="#">我的邦礼账户</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">关注我们&nbsp;<img class="zSimg" src="images/xinLang.png" width="22" height="17"></a></li>
+            </ul>
+        </div>
+        <!--登录之后 end -->
+    </div>
+    <!-- header_top end -->
+    <div class="bl_logoDiv mt20 clearfix">
+        <a class="fl" href="#"><img src="images/logo1121.png" width="289" height="55"></a>
+    </div>
+    <!-- bl_logoDiv end -->
+    <div class="enrollBox mt10">
+    	<h3 class="enrollBox_h3 f16 font_fam ml5 clearfix"><span class="fl">找回密码</span><a class="change_a fr mr5 f12 fb" href="#">重置密码帮助</a></h3>
+        <div class="enrollBox_con backgroundFFFFFF mt10 pt40">
+        	<div class="forgetPass margin_auto">
+            	<h4 class="initialH4 thD initialH4cz">2.账户确认及密码重置</h4>
+                    <div class="detailsCirc mt40 clearfix font_fam pr">
+                        <label class="detailsCirc_label fl f16 tr forgetPass_label">设置新密码：</label>
+                        <input id="pass" class="detailsCirc_input fl pl5 mr5 input-style" type="password" value="" maxlength="20" name="pass">
+                        <p class="detailsCirc_p fl">密码为6-20个字符，可有英文、数字及符号组成</p>
+                        <div id="level" class="pw-strength">
+                            <div class="pw-bar"></div>
+                            <div class="pw-bar-on"></div>
+                            <div class="pw-txt">
+                                <span>弱</span>
+                                <span>中</span>
+                                <span>强</span>
+                            </div>
+                        </div>
+                        <div id="xiaoYubox" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码长度6-20个字符，请重新输入</p></div>
+                        <div id="emptyDiv" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码不能为空，请重新输入</p></div>
+                    </div>
+                    <!-- detailsCirc end -->
+                    <div class="detailsCirc mt20 clearfix font_fam">
+                        <label class="detailsCirc_label fl f16 tr forgetPass_label">确认新密码：</label>
+                        <input id="passSon" class="detailsCirc_input fl pl5 mr5" type="password" value="" maxlength="20">
+                        <p class="detailsCirc_p fl">请再次输入密码</p>
+                        <span class="sorrectSpan fl ml15"></span>
+                        <div id="Empty" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">确认密码不能为空，请重新输入</p></div>
+                        <div id="Different" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">两次输入密码不一致，请重新输入</p></div>
+                        <div id="verifylength" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">密码长度6-20个字符，请重新输入</p></div>
+                    </div>
+                    <!-- detailsCirc end -->
+                    <div class="detailsCirc mt20 clearfix font_fam">
+                        <label id="chartYz" class="detailsCirc_label fl f16 tr forgetPass_label">图形验证码：</label>
+                        <input id="yanzCode" class="detailsCirc_input fl pl5 mr5" type="text" value="">
+                        <p class="detailsCirc_p fl">请输入图中的字符不区分大小写</p>
+                        <div id="tifying" class="properDiv fl ml15 mt5 pl5 pr10"><span class="fl"></span><p class="fl pl10">验证码不能为空，请重新输入</p></div>
+                        <!--<div class="properDiv fl ml15 mt5 pl5 pr10" style="display:block;"><span class="fl"></span><p class="fl pl10">验证码错误，请重新输入</p></div>-->
+                       <!-- <span class="sorrectSpan fl ml15" style="display:block;"></span>-->
+                    </div>
+                    <!-- detailsCirc end -->
+                    <div class="yangZhengson clearfix mt15 passWangjitu">
+                        <div class="fl tc mr5"><img src="images/yangZhengson.jpg" wth="196" height="42"></div>
+                        <span class="fl">看不清？<a href="#">换张图</a></span>
+                    </div>
+                    <!-- yangZhengson end -->
+                    <div class="passZuche mt15">
+                        <input id="onceInp" class="onceZucheinput bor_none f18 font_fam fb" type="submit" value="下&nbsp;一&nbsp;步">
+                    </div>
+            </div>
+            <!-- forgetPass end -->
+        </div>
+        <!-- enrollBox_con end -->
+    </div>
+    <!-- enrollBox end -->
+</div>
+<!-- 邦礼w1200box end -->
+</body>
+</html>

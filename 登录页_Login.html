@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=8" />
+<title>登录页</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+<link type="text/css" href="css/login.css" rel="stylesheet">
+<link type="text/css" href="css/base.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/login.js"></script>
+</head>
+<body>
+<div class="w1200 margin_auto">
+    <div class="bl_logoDiv pt30 clearfix"><img src="images/logo1121.png" width="289" height="55"></a></div>
+    <div class="loginCon clearfix">
+    	<div class="loginCon_L fl tr"><img src="images/dengluimg.jpg" width="478" height="320"></div>
+        <div class="loginCon_R fr font_fam">
+        	<h3 class="f16">登录邦礼网</h3>
+            <div class="messageDiv clearfix mt15 pr">
+                <img class="fl" src="images/messageDiv1.jpg" width="15" height="15">
+                <input id="email" class="f14 fl bor_none" type="text" value="" name="">
+                <p class="prompt_p pa">请输入邮箱地址/手机号码</p>
+                <p id="email_p" class="prompt_pSon pa">用户名为空，请重新填写</p>
+            </div>
+            <!-- messageDiv end -->
+            <div class="messageDiv clearfix mt25 pr">
+                <img class="fl" src="images/messageDiv2.jpg" width="15" height="15">
+                <input id="pass" class="f14 fl bor_none" type="password" value="" name="">
+                <p class="prompt_p pa">请输入密码为6-20个字符的密码</p>
+                <p id="pass_p" class="prompt_pSon pa">密码为空，请重新填写</p>
+            </div>
+            <!-- messageDiv end -->
+            <div class="firmationDiv clearfix mt25 pr">
+            	<div class="messageDiv">
+                    <img class="fl" src="images/messageDiv3.jpg" width="15" height="15">
+                    <input id="yanZheng" class="f14 bor_none fl" type="text" value="" name="">
+                    <p class="prompt_p pa">请输入图中的字符，不区分大小写</p>
+                    <p id="yanZheng_p" class="prompt_pSon pa">验证码输入错误，请重新填写</p>
+                </div>
+                <div class="veriFication ovhidden mt25">
+                    <div class="fl tc"><img src="images/yangZhengson.jpg" width="128" height="28"></div>
+                    <span class="fl ml10">看不清？<em class="curaor_pointer">换张图</a></em>
+                </div>
+            </div>
+            <!-- firmationDiv end -->
+            <div class="cipherDiv mt10 clearfix">
+            	<div class="fl"><input class="fl" type="checkbox"><label class="fl">7天内自动登录</label></div>
+                <a class="fr mr10" href="#">忘记密码</a>
+            </div>
+            <!-- cipherDiv end -->
+            <div class="mt10 tc">
+            	<input class="ccd_submit bor_none curaor_pointer" type="submit" value=" " onClick="subform()">
+            </div>
+            <div class="wordDiv mt10 tr">
+            	<p><span class="dis_inlin_biock">还不是邦礼网用户？</span><a class="dis_inlin_biock tc ml10" href="#">立即注册</a></p>
+            </div>
+        </div>
+        <!-- loginCon_R end -->
+    </div>
+    <!-- loginCon end -->
+</div>
+<!-- 邦礼w1200box end -->
+</body>
+</html>

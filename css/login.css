@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*登录页面*/
+.bl_logoDiv{ margin-left:150px;}
+.loginCon{ margin-top:100px;}
+.loginCon_L{ width:630px;}
+.loginCon_R{ width:312px; margin-right:215px;}
+.messageDiv{ height:28px; border:solid 1px #C7C6C6;}
+.messageDiv img{ margin:7px 6px 0 11px;}
+.messageDiv input{ height:28px; line-height:28px; color:#AEA7A7; width:275px; border:0;}
+.firmationDiv .messageDiv_son input{ width:120px;}
+.veriFication div{ border:solid 1px #E4E5E7; width:200px; height:44px;}
+.veriFication div img{ width:128px; height:28px;}
+.veriFication span{ line-height:44px;}
+.veriFication img{ margin-top:7px;}
+.veriFication em{ color:#0E57BA; line-height:28px;}
+.cipherDiv input{ margin-top:2px; margin-right:5px;}
+.cipherDiv a{ color:#0E57BA;}
+.ccd_submit{ width:307px; height:31px; background:url(../images/newbl_submit.jpg) no-repeat;}
+.wordDiv p{ color:#A09898; line-height:23px;}
+.wordDiv p a{ width:61px; height:23px; line-height:23px; background:url(../images/wordDivpa.jpg) no-repeat; color:#666;}
+.wordDiv p a:hover{ text-decoration:none; color:#F44800;}
+.prompt_p{ left:10px; top:33px; color:#AEA7A7; display:none;}
+.prompt_pSon{ left:10px; top:33px; color:#F76743; display:none;}
+
+/*登录页面 end*/
+
+
+

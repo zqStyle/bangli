@@ -1,0 +1,127 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*注册页面*/
+.enrollBox{ border:solid 1px #E1D5D5; background-color:#F2F2F2; padding:10px;}
+.enrollBox_h3,.enrollBox_h3 a{ color:#5A4040;}
+.enrollBox_con{ border:solid 1px #CEBDBD; padding-bottom:55px;}
+.detailsCirc{ height:36px; line-height:36px;}
+.detailsCirc_label{ width:425px; margin-right:7px;}
+.detailsCirc_input{ width:235px; height:34px; line-height:34px; border:#95AECD solid 1px;}
+.detailsCirc_p{ color:#a1b2a3; display:none;}
+.yangZhengson{ line-height:44px; margin-left:432px;}
+.yangZhengson div{ border:solid 1px #E4E5E7; width:240px; height:44px;}
+.yangZhengson div img{ width:128px; height:28px;}
+.yangZhengson span{ color:#a1b2a3;}
+.yangZhengson span a{ color:#2f48b1;}
+.onceZuche{ margin-left:432px;}
+.onceZuche input{ width:236px; height:39px; background:url(../images/onceZuches.jpg) no-repeat; color:#fff; cursor:not-allowed;}
+.onceZuche input.onceZucheinput{ background:url(../images/onceZuchea.jpg) no-repeat; cursor:pointer;}
+.clause_p{ margin-left:432px;}
+.clause_p a{ color:#8C8B99;}
+.sorrectSpan{ width:20px; height:20px; background:url(../images/blBg.png) no-repeat -263px -157px; margin-top:7px; display:none;}
+.properDiv{ border:solid 1px #FFCCCB; height:26px; line-height:26px; background-color:#FCF2F0; display:none;}
+.properDiv span{ width:20px; height:20px; background:url(../images/blBg.png) no-repeat -308px -157px; margin-top:3px;}
+.properDiv p{ color:#E77A75;}
+.properDiv p a{ color:#4F63D6;}
+/*密码强度*/
+.pw-strength{ float:left; position:relative; top:5px; width:180px; display:none;}
+.pw-bar{background:url(../images/pwd-1.png) no-repeat; height:14px; overflow:hidden; width:179px;}
+.pw-bar-on{background:url(../images/pwd-2.png) no-repeat;  width:0px;  height:14px; position:absolute; top:1px; left:2px; transition:width .5s ease-in; -moz-transition:width .5s ease-in;
+ -webkit-transition:width .5s ease-in; -o-transition:width .5s ease-in;}
+.pw-weak .pw-defule{ width:0px;}
+.pw-weak .pw-bar-on{width:60px;}
+.pw-medium .pw-bar-on{width:120px;}
+.pw-strong .pw-bar-on{width:179px;}
+.pw-txt{padding-top:2px; width:180px; overflow:hidden;}
+.pw-txt span{color:#707070; float:left; font-size:12px; text-align:center; width:58px; line-height:15px;}
+/*密码强度 end*/
+
+/*注册页面注册验证信息弹出框*/
+#cc_blackBg{background:url(../images/blackBg.png); width:100%; height:100%; position:fixed; *position:absolute; top:0; bottom:0; right:0; left:0; z-index:111;}
+#mailboxDiv{ background-color:#FFFFFF; width:470px; height:260px; margin:auto; position:fixed; left:0;right:0; top:0; bottom:0; z-index:112; border:solid 1px #E6E0E2;}
+.wj_mmH3{ height:35px; line-height:35px; border-bottom:solid 1px #E7E1E3; background-color:#F9F5F4;}
+.wj_mmH3 p{ color:#5f4b4b;}
+.wj_mmH3 span{ width:19px; height:19px; background:url(../images/blBg.png) no-repeat -409px -144px; margin-top:8px;}
+.operators_p{ color:#fe0606;}
+.mobilePhone{ line-height:20px;}
+.mobile_p{ color:#6e6767; width:85px;}
+.mobile_span{ font-size:13px;}
+.mobile_inp{ border:solid 1px #E0CECC; padding:2px 5px; background-color:#ECEDEF; border-radius:5px; margin-left:86px;}
+.verify_p{ color:#9F898C; display:none;}
+.mobilePhone_label{ width:85px; color:#6e6767;}
+.mobilePhone_input{ width:155px; height:22px; line-height:22px; margin-top:6px;}
+.mobilePhone_pSon{ left:260px; top:0px;}
+.tuXing_yz{ margin-left:92px; line-height:40px;}
+.tuXing_yz div{ border:solid 1px #E4E5E7; width:160px; height:40px; margin-right:3px;}
+.lookNo{ font-size:11px; color:#9AB0A3; margin-left:96px;}
+.lookNo em{ color:#0d21b8; font-size:12px; cursor:pointer;}
+.yanZbutton{ width:80px; height:22px; border-radius:3px; background-color:#36B28E; margin-left:92px;}
+.prompt_pSon{ color:#F76743; display:none;}
+/*注册页面注册验证信息弹出框 end*/
+/*注册页面 end */
+
+/*邮箱注册成功页面*/
+.successDiv{ width:727px; padding-top:135px; padding-left:275px; padding-bottom:135px;}
+.successDiv_T{ border-bottom:solid 1px #EAEAEA;}
+.successDiv_T_p{ height:49px; line-height:49px;}
+.successDiv_T_p span{ width:49px; height:49px; background:url(../images/blBg.png) no-repeat -346px -144px;}
+.successDiv_T_p font{ color:#5a4040;}
+.successDiv_T_p a{ border:solid 1px #A2A0A0; height:20px; line-height:20px; padding:0 10px; color:#5a4040; font-size:10px; border-radius:5px; background-color:#EFEFEF;}
+.successDiv_T_p a:hover{ color:#E77A75; text-decoration:none;}
+.successDiv_B_p{ margin-left:70px; color:#5a4040;}
+.successDiv_B_p_a{ font-size:10px; color:#8d7f7f;}
+.ceed_p{ color:#5a4040; margin-left:121px;}
+.ceed_pSon{ margin-left:121px; color:#8d7f7f; font-size:10px;}
+.ceed_pSon a{ color:#0d21b8; font-size:12px;}
+/*邮箱注册成功页面 end*/
+/*手机注册成功页面*/
+.successDiv_borNo{ border-bottom:0;}
+/*手机注册成功页面 end*/
+
+/*忘记密码初始页面*/
+.enrollBox_h3 .change_a{ color:#1270B0;}
+.forgetPass{ padding:20px 0 10px; width:669px;}
+.initialH4{ height:36px; background:url(../images/barProgress.png) no-repeat 0px 0px;}
+.forgetPass_label{ width:130px;}
+.passWangjitu{ margin-left:137px;}
+.passZuche{ margin-left:140px;}
+.passZuche input.onceZucheinput{ width:236px; height:39px; color:#fff; background:url(../images/onceZuchea.jpg) no-repeat; cursor:pointer;}
+#pass_mailboxDiv{ background-color:#FFFFFF; width:442px; margin:auto; position:fixed; left:0;right:0; top:0; bottom:0; z-index:112; border:solid 1px #E6E0E2;}
+.choiceYz{ line-height:25px;}
+.select_year{ margin-left:8px; border:solid 1px #95AECD; width:160px; height:25px; line-height:25px; font-weight:bold; font-size:16px;}
+.wPassmobile_inp{ margin-left:128px;}
+.wangVerify_p{ left:235px; top:5px; font-size:12px; color:#c1b3b3;}
+.unable_p{ margin-left:126px; color:#c1b3b3;}
+.unable_p span{ color:#4650C3;}
+.wangPass_label{ width:120px; color:#6e6767;}
+.passYanz{ margin-left:127px;}
+.passYanz span{ font-size:11px;}
+.wangPass_pSon{ left:305px; top:0px;}
+.yanZbutton{ margin-left:128px;}
+.againOnce_p{ border-top:solid 1px #E6E0E2; color:#a9a5a5;}
+/*忘记密码初始页面 end*/
+/*忘记密码初始页面 end*/
+/*用户确认及密码重置*/
+.initialH4cz{ background-position:0px -42px;}
+.initialH4cg{ background-position:0px -84px;}
+.successDiv_czCg{ padding-top:120px; padding-left:100px; padding-bottom:120px;}
+/*用户确认及密码重置 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

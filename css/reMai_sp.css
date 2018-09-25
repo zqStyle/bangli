@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*热卖商品*/
+.v_show { width:1045px; height:210px; margin-left:90px;}
+.v_content { position:relative; width:1045px; height:210px; overflow:hidden;}
+.v_content_list{ position:absolute; top:0px; width:30000px;}
+.v_content ul {float:left;}
+.v_content ul li {float:left; width:140px; text-align:center; margin-right:35px;}
+.v_content ul li a { display:block; overflow:hidden; }
+.v_content ul li img {  width:140px; height:140px; }
+.v_content ul li .diseXiao_p { height:35px; overflow:hidden; text-align:left;}
+.change_btn span { height:132px; width:25px; text-indent:-5000px; cursor:pointer; margin-top:-165px;}
+.change_btn .prev { float:left; background:url(../images/prev.jpg) no-repeat; margin-left:-60px;}
+.change_btn .next { float:right; background:url(../images/next.jpg) no-repeat; margin-right:-40px;}
+/*热卖商品 end*/
+
